@@ -26,6 +26,18 @@ int main(int argc, char *argv[])
             getline(cin, str[i]);
         }
 
+
+    int counter = 0;
+    for(int i = 0; i < n;i++){
+        counter = 0;
+        for(int j = i+1; j < n; j++){
+            if(str[i] == str[j]){
+                counter++;
+                str[j]+= to_string(counter);
+            }
+        }
+     }
+
     cout << endl <<"\nBefore reduction: " << endl;
     for(int i = 0; i < n;i++){
            cout << str[i] << "\n";
@@ -37,6 +49,17 @@ int main(int argc, char *argv[])
             str[i].replace(p/2, str[i].length()-p, s2);
             }
         }
+
+    for(int i = 0; i < n;i++){
+        counter = 0;
+        for(int j = i+1; j < n; j++){
+            if(str[i] == str[j]){
+                counter++;
+                str[j]+= to_string(counter);
+            }
+        }
+     }
+
 
     cout << endl <<"\nAfter reduction: " << endl;
     for(int i = 0; i < n;i++){
