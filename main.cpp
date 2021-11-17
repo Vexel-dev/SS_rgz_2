@@ -25,5 +25,24 @@ int main(int argc, char *argv[])
     for(int i = 0; i < n;i++){
             getline(cin, str[i]);
         }
+
+    cout << endl <<"\nBefore reduction: " << endl;
+    for(int i = 0; i < n;i++){
+           cout << str[i] << "\n";
+        }
+
+
+    for(int i = 0; i < n;i++){
+        if(str[i].length() > p){
+            str[i].replace(p/2, str[i].length()-p, s2);
+            }
+        }
+
+    cout << endl <<"\nAfter reduction: " << endl;
+    for(int i = 0; i < n;i++){
+           cout << str[i] << "\n";
+        }
+
+
     return 0;
 }
