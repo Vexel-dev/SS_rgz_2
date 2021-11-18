@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include <Windows.h>
 
 int main(int argc, char *argv[])
 {
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
     getline(cin, h);
 
     string str[n];
-    cout <<"\nstr: "<< endl;
+    cout <<"\nEnter your lines: "<< endl;
     string s2 = "...";
 
     for(int i = 0; i < n;i++){
