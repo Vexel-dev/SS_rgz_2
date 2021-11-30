@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
 
     for(int i = 0; i < n;i++)
         {
+
             getline(cin, str[i]);
         }
 
