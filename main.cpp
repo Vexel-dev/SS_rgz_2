@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
     int number[p];
     int cell = 0;
 
-    cout <<"\nEnter your lines:: "<< endl;
+    cout <<"\nEnter your lines: "<< endl;
 
     for(int i = 0; i < n;i++)
         {
