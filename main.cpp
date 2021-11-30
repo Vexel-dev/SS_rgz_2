@@ -16,7 +16,6 @@ int main(int argc, char** argv) {
     cout <<"length: ";
     cin >> p;
 
-
     string h;
     getline(cin, h);
 
@@ -34,7 +33,6 @@ int main(int argc, char** argv) {
 
     for(int i = 0; i < n;i++)
         {
-
             getline(cin, str[i]);
         }
 
