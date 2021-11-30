@@ -14,6 +14,7 @@ int main(int argc, char** argv) {
     cin >> n;
     cout <<"\n";
 
+
     int p = 0; //Длина строки после сокращения
     cout <<"length: ";
     cin >> p;
